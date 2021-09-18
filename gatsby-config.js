@@ -4,6 +4,7 @@ module.exports = {
     title: "My First Gatsby Site",
   },
   plugins: [
+    "gatsby-plugin-gatsby-cloud",
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
     {
@@ -12,6 +13,7 @@ module.exports = {
         name: `blog`,
         path: `${__dirname}/blog`,
       }
-    }
+    },
+    "gatsby-plugin-mdx",
   ],
 };
